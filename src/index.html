@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Подключение MUI Framework -->
+		<link
+			href="//cdn.muicss.com/mui-0.10.3/css/mui.min.css"
+			rel="stylesheet"
+			type="text/css"
+		/>
+		<script src="//cdn.muicss.com/mui-0.10.3/js/mui.min.js"></script>
+		<!--------------------------------------------------------------------------------------->
+
+		<title>FoodHide</title>
+	</head>
+	<body>
+		<!-- HEADER -->
+		<div class="header-continer">
+			<div class="header-top">
+				<div class="header-top-container">
+					<nav>
+						<ul>
+							<li>
+								<button type="button" id="btn-reg-restaurant">
+									Зарегистрировать ресторан
+								</button>
+							</li>
+							<li>
+								<button type="button" id="btn-login">Войти в аккаунт</button>
+							</li>
+							<li>
+								<button type="button" id="btn-registration">
+									Зарегистрироваться
+								</button>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+
+			<div class="header-bottom">
+				<div class="header-bottom-container">
+					<nav>
+						<ul>
+							<li><a href="#">Найти еду</a></li>
+							<li><a href="#">Заказы</a></li>
+							<li><a href="/profile">Профиль</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</div>
+		<!-- MAIN CONTENT -->
+		<section class="main-container">
+			<div class="announ-main-container">
+				<div class="announ-content-container">
+					<div class="announ-content">
+						<button id="actions" type="button">Нет акций</button>
+						<div class="announ-main-content">
+							<div class="announ-title">
+								<div class="announ-title-back">
+									<h1>"Аппетитный хот-дог"</h1>
+								</div>
+							</div>
+
+							<div class="announ-description">
+								<div class="announ-description-back">
+									Хороший итальянский кофе и вкусные блоучки.
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="announ-info-container">
+					<div class="announ-info-content">
+						<div class="announ-common-info">
+							<div class="announ-name-person">
+								<label>ФИО владельца:</label>
+								<input
+									type="text"
+									disabled
+									id="person-info"
+									value="Петров В.А."
+								/>
+							</div>
+							<div class="announ-phone-person">
+								<label>Мобильный телефон:</label>
+								<input
+									type="text"
+									disabled
+									id="person-number"
+									value="+79809065849"
+								/>
+							</div>
+							<div class="announ-name-object">
+								<label>Название объекта:</label>
+								<input
+									type="text"
+									disabled
+									id="name-object"
+									value="Сладкие пирожки"
+								/>
+							</div>
+						</div>
+						<div class="announ-search">
+							<button type="button" id="btn-announ-search">
+								Найти на карте
+							</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
